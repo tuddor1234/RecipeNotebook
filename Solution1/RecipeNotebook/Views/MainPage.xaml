@@ -1,18 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:RecipeNotebook.ViewModel"
              x:Class="RecipeNotebook.MainPage">
+
+    <ContentPage.BindingContext>
+        <local:MainViewModel/>
+    </ContentPage.BindingContext>
+
+
 
     <StackLayout>
         <Label Text="Recipes" FontSize="Title" HorizontalTextAlignment="Center"/>
         
         <ScrollView>
-            <ListView x:Name="RecipeListView">
+            <ListView  x:Name="RecipesView" ItemsSource="{Binding RecipeList}" ItemTapped="RecipeListView_ItemTapped">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
                             <StackLayout Orientation="Horizontal">
+                              
                                 <Label Text="{Binding Name}" TextColor="Black"></Label>
+                                
                             </StackLayout>
                         </ViewCell>
                     </DataTemplate>

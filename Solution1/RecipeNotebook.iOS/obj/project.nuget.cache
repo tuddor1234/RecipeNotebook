@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U24s1BnjO4VuONOnLqnIWZsICGSzI612/hbJsHTMd6zniWhrDDMad7uZnE5kJUOPiwxqpgNj/u0Bgv9UzktnMw==",
+  "dgSpecHash": "3ASLW2F0SOvSBHC1o4Mm+1WXZ7pJNkT8FktIBYfFAaHLrc8XdGGSt/Kl/C6XleSzwbNvFuvCFfwn6y6oveec0A==",
   "success": true,
-  "projectFilePath": "E:\\Projects\\_.NET\\Client\\RecipeNotebook\\Solution1\\RecipeNotebook.iOS\\RecipeNotebook.iOS.csproj",
+  "projectFilePath": "E:\\Projects\\_.NET\\RecipeNotebook\\RecipeNotebook\\Solution1\\RecipeNotebook.iOS\\RecipeNotebook.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tudor\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",

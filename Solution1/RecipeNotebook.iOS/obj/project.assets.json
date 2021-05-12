@@ -1054,11 +1054,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projects\\_.NET\\Client\\RecipeNotebook\\Solution1\\RecipeNotebook.iOS\\RecipeNotebook.iOS.csproj",
+      "projectUniqueName": "E:\\Projects\\_.NET\\RecipeNotebook\\RecipeNotebook\\Solution1\\RecipeNotebook.iOS\\RecipeNotebook.iOS.csproj",
       "projectName": "RecipeNotebook.iOS",
-      "projectPath": "E:\\Projects\\_.NET\\Client\\RecipeNotebook\\Solution1\\RecipeNotebook.iOS\\RecipeNotebook.iOS.csproj",
+      "projectPath": "E:\\Projects\\_.NET\\RecipeNotebook\\RecipeNotebook\\Solution1\\RecipeNotebook.iOS\\RecipeNotebook.iOS.csproj",
       "packagesPath": "C:\\Users\\Tudor\\.nuget\\packages\\",
-      "outputPath": "E:\\Projects\\_.NET\\Client\\RecipeNotebook\\Solution1\\RecipeNotebook.iOS\\obj\\",
+      "outputPath": "E:\\Projects\\_.NET\\RecipeNotebook\\RecipeNotebook\\Solution1\\RecipeNotebook.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1079,8 +1079,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "E:\\Projects\\_.NET\\Client\\RecipeNotebook\\Solution1\\RecipeNotebook\\RecipeNotebook.csproj": {
-              "projectPath": "E:\\Projects\\_.NET\\Client\\RecipeNotebook\\Solution1\\RecipeNotebook\\RecipeNotebook.csproj"
+            "E:\\Projects\\_.NET\\RecipeNotebook\\RecipeNotebook\\Solution1\\RecipeNotebook\\RecipeNotebook.csproj": {
+              "projectPath": "E:\\Projects\\_.NET\\RecipeNotebook\\RecipeNotebook\\Solution1\\RecipeNotebook\\RecipeNotebook.csproj"
             }
           }
         }

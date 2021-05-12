@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lLSwRk4/SdCREhRsQ6E2lTidFgChO7mFL6+edF3eyfIg50pEvnG47uL+Cy2B+oBp5O8tNsnQWl0U1nLXB15Ryg==",
+  "dgSpecHash": "QeNMt0klqUjATYVLRJMPovRpioBI7pZfMy2EcxeVnMoBGUEL0MxXdaKhF+NRCrdqf0ZbDlfhoX/azAlhTSnT9Q==",
   "success": true,
-  "projectFilePath": "E:\\Projects\\_.NET\\Client\\RecipeNotebook\\Solution1\\RecipeNotebook\\RecipeNotebook.csproj",
+  "projectFilePath": "E:\\Projects\\_.NET\\RecipeNotebook\\RecipeNotebook\\Solution1\\RecipeNotebook\\RecipeNotebook.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tudor\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Tudor\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

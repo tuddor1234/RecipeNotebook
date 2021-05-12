@@ -1976,11 +1976,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projects\\_.NET\\Client\\RecipeNotebook\\Solution1\\RecipeNotebook.Android\\RecipeNotebook.Android.csproj",
+      "projectUniqueName": "E:\\Projects\\_.NET\\RecipeNotebook\\RecipeNotebook\\Solution1\\RecipeNotebook.Android\\RecipeNotebook.Android.csproj",
       "projectName": "RecipeNotebook.Android",
-      "projectPath": "E:\\Projects\\_.NET\\Client\\RecipeNotebook\\Solution1\\RecipeNotebook.Android\\RecipeNotebook.Android.csproj",
+      "projectPath": "E:\\Projects\\_.NET\\RecipeNotebook\\RecipeNotebook\\Solution1\\RecipeNotebook.Android\\RecipeNotebook.Android.csproj",
       "packagesPath": "C:\\Users\\Tudor\\.nuget\\packages\\",
-      "outputPath": "E:\\Projects\\_.NET\\Client\\RecipeNotebook\\Solution1\\RecipeNotebook.Android\\obj\\",
+      "outputPath": "E:\\Projects\\_.NET\\RecipeNotebook\\RecipeNotebook\\Solution1\\RecipeNotebook.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2001,8 +2001,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "E:\\Projects\\_.NET\\Client\\RecipeNotebook\\Solution1\\RecipeNotebook\\RecipeNotebook.csproj": {
-              "projectPath": "E:\\Projects\\_.NET\\Client\\RecipeNotebook\\Solution1\\RecipeNotebook\\RecipeNotebook.csproj"
+            "E:\\Projects\\_.NET\\RecipeNotebook\\RecipeNotebook\\Solution1\\RecipeNotebook\\RecipeNotebook.csproj": {
+              "projectPath": "E:\\Projects\\_.NET\\RecipeNotebook\\RecipeNotebook\\Solution1\\RecipeNotebook\\RecipeNotebook.csproj"
             }
           }
         }
