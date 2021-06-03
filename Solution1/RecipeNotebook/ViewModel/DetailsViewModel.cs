@@ -26,11 +26,10 @@ namespace RecipeNotebook.ViewModel
 
         public async void GetXMLFile(Recipe r)
         {
-            //if (rd == null)
-            //    return;
-
             HttpClient client = new HttpClient();
             string APIPath = "https://reciperestapi.azurewebsites.net/api/recipe";
+
+            Console.WriteLine("test" + r.ID.ToString());
 
             var response = await client.GetStringAsync(APIPath + $"/{r.ID}");
 
