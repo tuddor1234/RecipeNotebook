@@ -7,6 +7,7 @@ namespace RecipeNotebook.Models
     public class Recipe
     {
         public string Name { get; set; }
-      //  public string fileURL { get; set; }
+
+        public long ID { get; }
     }
 }

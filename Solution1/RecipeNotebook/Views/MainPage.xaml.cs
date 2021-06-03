@@ -36,6 +36,7 @@ namespace RecipeNotebook
 
             await Navigation.PushAsync(detailPage);
 
+            detailPage.GetXMLFile(tappedRecipe);
         }
 
 

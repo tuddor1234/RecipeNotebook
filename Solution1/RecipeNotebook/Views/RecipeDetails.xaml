@@ -4,10 +4,35 @@
              x:Class="RecipeNotebook.RecipeDetails">
 
 
+    <ContentPage.BindingContext>
+        <local:DetailsViewModel/>
+    </ContentPage.BindingContext>
+
 
     <StackLayout>
             <Label Text="{Binding Name}" FontSize="Title" HorizontalTextAlignment="Center"/>
+        <!--<Image Source="https://news.microsoft.com/wp-content/uploads/2014/12/452292672.jpg" />-->
 
+        <ScrollView>
+                <ListView x:Name="Description" ItemsSource="{Binding Items}">
+            
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout  Orientation="Vertical">
+
+                                <Label IsVisible="{Binding isText}" Text="{Binding data}" FontSize="Medium" FontAttributes="Bold"/>
+                                <Image IsVisible="{Binding isImage}" Source="{Binding data}" />
+
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+
+
+            </ListView>
+            </ScrollView>
+        
      </StackLayout>
 
 </ContentPage>
